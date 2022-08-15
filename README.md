@@ -1,6 +1,6 @@
 # Github globe example
 
-![EVONET](/static/globe.png)
+![Globe](/static/globe.png)
 
 ## Introduce
 
