@@ -1,0 +1,44 @@
+{
+  "name": "github-globe-module",
+  "version": "1.0.0",
+  "description": "github globe example using js modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config=webpack.config.prod.js",
+    "build-dev": "webpack --config=webpack.config.dev.js",
+    "start": "webpack-dev-server --config=webpack.config.dev.js --open"
+  },
+  "keywords": [
+    "github",
+    "three-globe",
+    "globe",
+    "three.js",
+    "earth",
+    "3D",
+    "webgl"
+  ],
+  "author": "kevinzhang19870314",
+  "license": "ISC",
+  "dependencies": {
+    "three": "~0.142.0",
+    "three-globe": "~2.24.6",
+    "@tweenjs/tween.js": "~18.6.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "style-loader": "^1.0.0",
+    "terser-webpack-plugin": "^1.4.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
+  }
+}
