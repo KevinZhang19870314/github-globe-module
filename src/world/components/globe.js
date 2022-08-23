@@ -33,7 +33,7 @@ class Globe {
     initCountries(delay) {
         setTimeout(() => {
             this.instance
-                .hexPolygonsData(countries.features.filter(d => d.properties.ISO_A2 !== 'AQ'))
+                .hexPolygonsData(countries.features)
                 .hexPolygonResolution(3)
                 .hexPolygonMargin(0.7)
                 .showAtmosphere(true)
